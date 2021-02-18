@@ -150,8 +150,7 @@ a,
     border-color:rgba(55,53,47,0.4);
     opacity:0.6;
         
-    transition: all .3s ease-in;
-    
+    transition: all .1s ease-in; 
 }
  .md-def-name {
     color: #e8e8e9;
@@ -184,7 +183,6 @@ a>span>code {
 }
 
 blockquote {
-    border-radius: 4px;
     padding: 12px 16px;
     background-color: #f7f7f7;
     color: #252d34;
