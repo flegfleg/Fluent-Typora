@@ -178,6 +178,19 @@ mark, .ty-file-search-match-text, .md-search-hit {
     color: var(--search-select-text-color);
 }
 
+mark {
+    border-radius: 4px;
+    color: #141001;
+    font-weight: inherit;
+    background-color: #ffde67;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
 .md-search-hit * {
     color: var(--search-select-text-color);
 }
@@ -213,10 +226,6 @@ table tr {
     border-top: 1px solid var(--dark-trait);
     margin: 0;
     padding: 0;
-}
-
-table tr:nth-child(2n), thead {
-    background-color: var(--side-bar-bg-color);
 }
 
 table tr th {
